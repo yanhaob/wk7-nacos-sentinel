@@ -56,6 +56,7 @@ java -jar sentinel-dashboard-1.6.1.jar
 ```
 
 The default startup port is 8080 (change by 'java -jar sentinel-dashboard-1.6.1.jar -Dserver.port=8081'). Then visit http://localhost:8080/ to display the Sentinel page (username: sentinel, password: sentinel).
+- Sentinel Dashboard ([Download for Mac](https://github.com/alibaba/Sentinel/releases/download/1.6.1/sentinel-dashboard-1.6.1.jar))
 
 **Step2**, multiple times visit http://localhost:8762/hi of nacos-provider then check sentinel dashboard (Fig.6). Check the interface resource info (Fig.7). Click "Add Flow Control" to configure (Fig.8) the functionality of flow control for the /hi resource.
 
@@ -83,5 +84,25 @@ The default startup port is 8080 (change by 'java -jar sentinel-dashboard-1.6.1.
     <p style="margin: 0;">Fig.10 Sentinel-Provider(Renewed Dashboard)</p>
 </div>
 
-- Sentinel Dashboard ([Download for Mac](https://github.com/alibaba/Sentinel/releases/download/1.6.1/sentinel-dashboard-1.6.1.jar))
+**Step4**, multiple times visit http://localhost:8763/hi-feign of nacos-consumer then check sentinel dashboard (Fig.11). Check the interface resource info (Fig.12). Click "Add Flow Control" the same way as in nacos-provider to configure the functionality of flow control for the /hi-feign resource.
+
+**Step5**, test. Multiple times visit http://localhost:8763/hi-feign of nacos-consumer, and you can find the following info "Blocked by Sentinel (flow limiting)" with the normal return logic being "hi feign", which indicates the functionality of flow control works (Fig.13). Then check sentinel dashboard (Fig.14).
+
+<div style="text-align: center;">
+    <img src="./img/sentinel-consumer.png" alt="sentinel-consumer" width="100%">
+    <p style="margin: 0;">Fig.11 Sentinel-Consumer(Dashboard)</p>
+</div>
+<div style="text-align: center;">
+    <img src="./img/sentinel-consumer-res.png" alt="sentinel-consumer-res" width="100%">
+    <p style="margin: 0;">Fig.12 Sentinel-Consumer(Resource)</p>
+</div>
+<div style="text-align: center;">
+    <img src="./img/sentinel-consumer-limit-res1.png" alt="sentinel-consumer-limit-res1" width="100%">
+    <img src="./img/sentinel-consumer-limit-res2.png" alt="sentinel-consumer-limit-res2" width="100%">
+    <p style="margin: 0;">Fig.13 Sentinel-Consumer(Limit Result)</p>
+</div>
+<div style="text-align: center;">
+    <img src="./img/sentinel-consumer-limit-page.png" alt="sentinel-consumer-limit-page" width="100%">
+    <p style="margin: 0;">Fig.10 Sentinel-Consumer(Renewed Dashboard)</p>
+</div>
 
