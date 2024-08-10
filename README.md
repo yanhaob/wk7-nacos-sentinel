@@ -58,9 +58,11 @@ java -jar sentinel-dashboard-1.6.1.jar
 The default startup port is 8080 (change by 'java -jar sentinel-dashboard-1.6.1.jar -Dserver.port=8081'). Then visit http://localhost:8080/ to display the Sentinel page (username: sentinel, password: sentinel).
 - Sentinel Dashboard ([Download for Mac](https://github.com/alibaba/Sentinel/releases/download/1.6.1/sentinel-dashboard-1.6.1.jar))
 
-**Step2**, multiple times visit http://localhost:8762/hi of nacos-provider then check sentinel dashboard (Fig.6). Check the interface resource info (Fig.7). Click "Add Flow Control" to configure (Fig.8) the functionality of flow control for the /hi resource.
+**Step2**, cd sentinel, then run NacosProviderApplication.java, NacosCustomerApplication.java
 
-**Step3**, test. Multiple times visit http://localhost:8762/hi of nacos-provider, and you can find the following info "Blocked by Sentinel (flow limiting)" with the normal return logic being "hi forezp", which indicates the functionality of flow control works (Fig.9). Then check sentinel dashboard (Fig.10).
+**Step3**, multiple times visit http://localhost:8762/hi of nacos-provider then check sentinel dashboard (Fig.6). Check the interface resource info (Fig.7). Click "Add Flow Control" to configure (Fig.8) the functionality of flow control for the /hi resource.
+
+**Step4**, test. Multiple times visit http://localhost:8762/hi of nacos-provider, and you can find the following info "Blocked by Sentinel (flow limiting)" with the normal return logic being "hi forezp", which indicates the functionality of flow control works (Fig.9). Then check sentinel dashboard (Fig.10).
 
 <div style="text-align: center;">
     <img src="./img/sentinel-provider.png" alt="sentinel-provider" width="100%">
@@ -84,9 +86,9 @@ The default startup port is 8080 (change by 'java -jar sentinel-dashboard-1.6.1.
     <p style="margin: 0;">Fig.10 Sentinel-Provider(Renewed Dashboard)</p>
 </div>
 
-**Step4**, multiple times visit http://localhost:8763/hi-feign of nacos-consumer then check sentinel dashboard (Fig.11). Check the interface resource info (Fig.12). Click "Add Flow Control" the same way as in nacos-provider to configure the functionality of flow control for the /hi-feign resource.
+**Step5**, multiple times visit http://localhost:8763/hi-feign of nacos-consumer then check sentinel dashboard (Fig.11). Check the interface resource info (Fig.12). Click "Add Flow Control" the same way as in nacos-provider to configure the functionality of flow control for the /hi-feign resource.
 
-**Step5**, test. Multiple times visit http://localhost:8763/hi-feign of nacos-consumer, and you can find the following info "Blocked by Sentinel (flow limiting)" with the normal return logic being "hi feign", which indicates the functionality of flow control works (Fig.13). Then check sentinel dashboard (Fig.14).
+**Step6**, test. Multiple times visit http://localhost:8763/hi-feign of nacos-consumer, and you can find the following info "Blocked by Sentinel (flow limiting)" with the normal return logic being "hi feign", which indicates the functionality of flow control works (Fig.13). Then check sentinel dashboard (Fig.14).
 
 <div style="text-align: center;">
     <img src="./img/sentinel-consumer.png" alt="sentinel-consumer" width="100%">
