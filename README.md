@@ -63,7 +63,7 @@ The default startup port is 8080 (change by 'java -jar sentinel-dashboard-1.6.1.
 
 <div style="text-align: center;">
     <img src="./img/sentinel-provider.png" alt="sentinel-provider" width="100%">
-    <p style="margin: 0;">Fig.6 Sentinel-Provider(Page)</p>
+    <p style="margin: 0;">Fig.6 Sentinel-Provider(Dashboard)</p>
 </div>
 <div style="text-align: center;">
     <img src="./img/sentinel-provider-res.png" alt="sentinel-provider-res" width="100%">
@@ -80,7 +80,7 @@ The default startup port is 8080 (change by 'java -jar sentinel-dashboard-1.6.1.
 </div>
 <div style="text-align: center;">
     <img src="./img/sentinel-provider-limit-page.png" alt="sentinel-provider-limit-page" width="100%">
-    <p style="margin: 0;">Fig.10 Sentinel-Provider(Renewed Page)</p>
+    <p style="margin: 0;">Fig.10 Sentinel-Provider(Renewed Dashboard)</p>
 </div>
 
 - Sentinel Dashboard ([Download for Mac](https://github.com/alibaba/Sentinel/releases/download/1.6.1/sentinel-dashboard-1.6.1.jar))
