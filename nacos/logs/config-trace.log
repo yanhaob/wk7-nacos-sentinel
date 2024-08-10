@@ -1,0 +1,6 @@
+2024-08-04 12:26:13,020|192.168.1.102|nacos-provider-dev.yaml|DEFAULT_GROUP|null|null|1722745572988|192.168.1.102|persist|pub|-1|33d5b7b403246311b058873720ec36fb
+2024-08-04 12:26:13,037|192.168.1.102|nacos-provider-dev.yaml|DEFAULT_GROUP|null|null|1722745572988|192.168.1.102|notify|ok|44|192.168.1.102:8848
+2024-08-04 12:26:13,082|192.168.1.102|nacos-provider-dev.yaml|DEFAULT_GROUP|null|null|1722745572988|192.168.1.102|dump|ok|94|34
+2024-08-04 12:38:37,122|192.168.1.102|nacos-provider-dev.yaml|DEFAULT_GROUP|null|null|1722746317121|0:0:0:0:0:0:0:1|persist|remove|-1|null
+2024-08-04 12:38:37,125|192.168.1.102|nacos-provider-dev.yaml|DEFAULT_GROUP|null|null|1722746317121|192.168.1.102|notify|ok|4|192.168.1.102:8848
+2024-08-04 12:38:37,197|192.168.1.102|nacos-provider-dev.yaml|DEFAULT_GROUP|null|null|1722746317121|192.168.1.102|dump|remove-ok|76|0

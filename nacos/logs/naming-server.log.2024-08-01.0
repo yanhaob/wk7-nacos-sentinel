@@ -1,0 +1,98 @@
+2024-08-01 16:15:29,214 INFO listen for service meta change
+
+2024-08-01 16:15:30,486 INFO [SERVER-INIT] got port: 8848
+
+2024-08-01 16:15:30,486 INFO [SERVER-INIT] got path: /nacos
+
+2024-08-01 16:15:34,110 INFO [NACOS-DISTRO] healthy server list changed, disable health check for 60000 ms from now on
+
+2024-08-01 16:16:00,154 INFO [HEALTH-CHECK] health check is false
+
+2024-08-01 16:16:34,130 INFO [NACOS-DISTRO] distro threshold restored and stable now, enable health check. current ratio: 1.0
+
+2024-08-01 16:21:00,167 INFO [HEALTH-CHECK] health check is true
+
+2024-08-01 16:26:00,170 INFO [HEALTH-CHECK] health check is true
+
+2024-08-01 16:31:00,167 INFO [HEALTH-CHECK] health check is true
+
+2024-08-01 16:36:00,166 INFO [HEALTH-CHECK] health check is true
+
+2024-08-01 16:41:00,183 INFO [HEALTH-CHECK] health check is true
+
+2024-08-01 16:46:00,185 INFO [HEALTH-CHECK] health check is true
+
+2024-08-01 16:52:38,824 WARN server beat out of date, current: {"adWeight":0,"alive":true,"ip":"192.168.1.102","key":"192.168.1.102:8848","lastRefTime":1722502358822,"lastRefTimeStr":"2024-08-01 16:52:38","servePort":8848,"site":"unknown","weight":4}, last: {"adWeight":0,"alive":false,"ip":"192.168.1.102","key":"192.168.1.102:8848","lastRefTime":1722501964678,"lastRefTimeStr":"2024-08-01 16:46:04","servePort":8848,"site":"unknown","weight":4}
+
+2024-08-01 16:55:54,752 WARN server beat out of date, current: {"adWeight":0,"alive":true,"ip":"192.168.1.102","key":"192.168.1.102:8848","lastRefTime":1722502554751,"lastRefTimeStr":"2024-08-01 16:55:54","servePort":8848,"site":"unknown","weight":4}, last: {"adWeight":0,"alive":false,"ip":"192.168.1.102","key":"192.168.1.102:8848","lastRefTime":1722502523869,"lastRefTimeStr":"2024-08-01 16:55:23","servePort":8848,"site":"unknown","weight":4}
+
+2024-08-01 16:57:35,182 INFO [HEALTH-CHECK] health check is true
+
+2024-08-01 17:07:04,236 WARN server beat out of date, current: {"adWeight":0,"alive":true,"ip":"192.168.1.102","key":"192.168.1.102:8848","lastRefTime":1722503224233,"lastRefTimeStr":"2024-08-01 17:07:04","servePort":8848,"site":"unknown","weight":4}, last: {"adWeight":0,"alive":false,"ip":"192.168.1.102","key":"192.168.1.102:8848","lastRefTime":1722502674788,"lastRefTimeStr":"2024-08-01 16:57:54","servePort":8848,"site":"unknown","weight":4}
+
+2024-08-01 17:08:14,733 WARN server beat out of date, current: {"adWeight":0,"alive":true,"ip":"192.168.1.102","key":"192.168.1.102:8848","lastRefTime":1722503294733,"lastRefTimeStr":"2024-08-01 17:08:14","servePort":8848,"site":"unknown","weight":4}, last: {"adWeight":0,"alive":false,"ip":"192.168.1.102","key":"192.168.1.102:8848","lastRefTime":1722503239245,"lastRefTimeStr":"2024-08-01 17:07:19","servePort":8848,"site":"unknown","weight":4}
+
+2024-08-01 17:09:21,134 WARN server beat out of date, current: {"adWeight":0,"alive":true,"ip":"192.168.1.102","key":"192.168.1.102:8848","lastRefTime":1722503361134,"lastRefTimeStr":"2024-08-01 17:09:21","servePort":8848,"site":"unknown","weight":4}, last: {"adWeight":0,"alive":false,"ip":"192.168.1.102","key":"192.168.1.102:8848","lastRefTime":1722503309737,"lastRefTimeStr":"2024-08-01 17:08:29","servePort":8848,"site":"unknown","weight":4}
+
+2024-08-01 17:10:12,127 WARN server beat out of date, current: {"adWeight":0,"alive":true,"ip":"192.168.1.102","key":"192.168.1.102:8848","lastRefTime":1722503412127,"lastRefTimeStr":"2024-08-01 17:10:12","servePort":8848,"site":"unknown","weight":4}, last: {"adWeight":0,"alive":false,"ip":"192.168.1.102","key":"192.168.1.102:8848","lastRefTime":1722503361134,"lastRefTimeStr":"2024-08-01 17:09:21","servePort":8848,"site":"unknown","weight":4}
+
+2024-08-01 17:11:19,856 WARN server beat out of date, current: {"adWeight":0,"alive":true,"ip":"192.168.1.102","key":"192.168.1.102:8848","lastRefTime":1722503479855,"lastRefTimeStr":"2024-08-01 17:11:19","servePort":8848,"site":"unknown","weight":4}, last: {"adWeight":0,"alive":false,"ip":"192.168.1.102","key":"192.168.1.102:8848","lastRefTime":1722503412127,"lastRefTimeStr":"2024-08-01 17:10:12","servePort":8848,"site":"unknown","weight":4}
+
+2024-08-01 17:13:15,352 WARN server beat out of date, current: {"adWeight":0,"alive":true,"ip":"192.168.1.102","key":"192.168.1.102:8848","lastRefTime":1722503595351,"lastRefTimeStr":"2024-08-01 17:13:15","servePort":8848,"site":"unknown","weight":4}, last: {"adWeight":0,"alive":false,"ip":"192.168.1.102","key":"192.168.1.102:8848","lastRefTime":1722503479855,"lastRefTimeStr":"2024-08-01 17:11:19","servePort":8848,"site":"unknown","weight":4}
+
+2024-08-01 17:14:44,923 WARN server beat out of date, current: {"adWeight":0,"alive":true,"ip":"192.168.1.102","key":"192.168.1.102:8848","lastRefTime":1722503684922,"lastRefTimeStr":"2024-08-01 17:14:44","servePort":8848,"site":"unknown","weight":4}, last: {"adWeight":0,"alive":false,"ip":"192.168.1.102","key":"192.168.1.102:8848","lastRefTime":1722503595351,"lastRefTimeStr":"2024-08-01 17:13:15","servePort":8848,"site":"unknown","weight":4}
+
+2024-08-01 17:16:12,783 WARN server beat out of date, current: {"adWeight":0,"alive":true,"ip":"192.168.1.102","key":"192.168.1.102:8848","lastRefTime":1722503772782,"lastRefTimeStr":"2024-08-01 17:16:12","servePort":8848,"site":"unknown","weight":4}, last: {"adWeight":0,"alive":false,"ip":"192.168.1.102","key":"192.168.1.102:8848","lastRefTime":1722503702623,"lastRefTimeStr":"2024-08-01 17:15:02","servePort":8848,"site":"unknown","weight":4}
+
+2024-08-01 17:18:11,039 WARN server beat out of date, current: {"adWeight":0,"alive":true,"ip":"192.168.1.102","key":"192.168.1.102:8848","lastRefTime":1722503891038,"lastRefTimeStr":"2024-08-01 17:18:11","servePort":8848,"site":"unknown","weight":4}, last: {"adWeight":0,"alive":false,"ip":"192.168.1.102","key":"192.168.1.102:8848","lastRefTime":1722503772782,"lastRefTimeStr":"2024-08-01 17:16:12","servePort":8848,"site":"unknown","weight":4}
+
+2024-08-01 17:22:05,346 WARN server beat out of date, current: {"adWeight":0,"alive":true,"ip":"192.168.1.102","key":"192.168.1.102:8848","lastRefTime":1722504125346,"lastRefTimeStr":"2024-08-01 17:22:05","servePort":8848,"site":"unknown","weight":4}, last: {"adWeight":0,"alive":false,"ip":"192.168.1.102","key":"192.168.1.102:8848","lastRefTime":1722503891038,"lastRefTimeStr":"2024-08-01 17:18:11","servePort":8848,"site":"unknown","weight":4}
+
+2024-08-01 17:22:39,554 WARN server beat out of date, current: {"adWeight":0,"alive":true,"ip":"192.168.1.102","key":"192.168.1.102:8848","lastRefTime":1722504159554,"lastRefTimeStr":"2024-08-01 17:22:39","servePort":8848,"site":"unknown","weight":4}, last: {"adWeight":0,"alive":false,"ip":"192.168.1.102","key":"192.168.1.102:8848","lastRefTime":1722504125346,"lastRefTimeStr":"2024-08-01 17:22:05","servePort":8848,"site":"unknown","weight":4}
+
+2024-08-01 17:25:15,293 WARN server beat out of date, current: {"adWeight":0,"alive":true,"ip":"192.168.1.102","key":"192.168.1.102:8848","lastRefTime":1722504315293,"lastRefTimeStr":"2024-08-01 17:25:15","servePort":8848,"site":"unknown","weight":4}, last: {"adWeight":0,"alive":false,"ip":"192.168.1.102","key":"192.168.1.102:8848","lastRefTime":1722504159554,"lastRefTimeStr":"2024-08-01 17:22:39","servePort":8848,"site":"unknown","weight":4}
+
+2024-08-01 17:28:14,339 WARN server beat out of date, current: {"adWeight":0,"alive":true,"ip":"192.168.1.102","key":"192.168.1.102:8848","lastRefTime":1722504494339,"lastRefTimeStr":"2024-08-01 17:28:14","servePort":8848,"site":"unknown","weight":4}, last: {"adWeight":0,"alive":false,"ip":"192.168.1.102","key":"192.168.1.102:8848","lastRefTime":1722504315293,"lastRefTimeStr":"2024-08-01 17:25:15","servePort":8848,"site":"unknown","weight":4}
+
+2024-08-01 17:31:24,258 WARN server beat out of date, current: {"adWeight":0,"alive":true,"ip":"192.168.1.102","key":"192.168.1.102:8848","lastRefTime":1722504684258,"lastRefTimeStr":"2024-08-01 17:31:24","servePort":8848,"site":"unknown","weight":4}, last: {"adWeight":0,"alive":false,"ip":"192.168.1.102","key":"192.168.1.102:8848","lastRefTime":1722504494339,"lastRefTimeStr":"2024-08-01 17:28:14","servePort":8848,"site":"unknown","weight":4}
+
+2024-08-01 17:32:28,398 WARN server beat out of date, current: {"adWeight":0,"alive":true,"ip":"192.168.1.102","key":"192.168.1.102:8848","lastRefTime":1722504748398,"lastRefTimeStr":"2024-08-01 17:32:28","servePort":8848,"site":"unknown","weight":4}, last: {"adWeight":0,"alive":false,"ip":"192.168.1.102","key":"192.168.1.102:8848","lastRefTime":1722504684258,"lastRefTimeStr":"2024-08-01 17:31:24","servePort":8848,"site":"unknown","weight":4}
+
+2024-08-01 17:32:37,168 INFO [HEALTH-CHECK] health check is true
+
+2024-08-01 17:48:53,697 WARN server beat out of date, current: {"adWeight":0,"alive":true,"ip":"192.168.1.102","key":"192.168.1.102:8848","lastRefTime":1722505733695,"lastRefTimeStr":"2024-08-01 17:48:53","servePort":8848,"site":"unknown","weight":4}, last: {"adWeight":0,"alive":false,"ip":"192.168.1.102","key":"192.168.1.102:8848","lastRefTime":1722504748398,"lastRefTimeStr":"2024-08-01 17:32:28","servePort":8848,"site":"unknown","weight":4}
+
+2024-08-01 18:27:20,321 WARN server beat out of date, current: {"adWeight":0,"alive":true,"ip":"192.168.1.102","key":"192.168.1.102:8848","lastRefTime":1722508040320,"lastRefTimeStr":"2024-08-01 18:27:20","servePort":8848,"site":"unknown","weight":4}, last: {"adWeight":0,"alive":false,"ip":"192.168.1.102","key":"192.168.1.102:8848","lastRefTime":1722505733695,"lastRefTimeStr":"2024-08-01 17:48:53","servePort":8848,"site":"unknown","weight":4}
+
+2024-08-01 18:42:39,513 WARN server beat out of date, current: {"adWeight":0,"alive":true,"ip":"192.168.1.102","key":"192.168.1.102:8848","lastRefTime":1722508959512,"lastRefTimeStr":"2024-08-01 18:42:39","servePort":8848,"site":"unknown","weight":4}, last: {"adWeight":0,"alive":false,"ip":"192.168.1.102","key":"192.168.1.102:8848","lastRefTime":1722508040320,"lastRefTimeStr":"2024-08-01 18:27:20","servePort":8848,"site":"unknown","weight":4}
+
+2024-08-01 18:58:50,270 WARN server beat out of date, current: {"adWeight":0,"alive":true,"ip":"192.168.1.102","key":"192.168.1.102:8848","lastRefTime":1722509930269,"lastRefTimeStr":"2024-08-01 18:58:50","servePort":8848,"site":"unknown","weight":4}, last: {"adWeight":0,"alive":false,"ip":"192.168.1.102","key":"192.168.1.102:8848","lastRefTime":1722508959512,"lastRefTimeStr":"2024-08-01 18:42:39","servePort":8848,"site":"unknown","weight":4}
+
+2024-08-01 19:14:45,700 WARN server beat out of date, current: {"adWeight":0,"alive":true,"ip":"192.168.1.102","key":"192.168.1.102:8848","lastRefTime":1722510885699,"lastRefTimeStr":"2024-08-01 19:14:45","servePort":8848,"site":"unknown","weight":4}, last: {"adWeight":0,"alive":false,"ip":"192.168.1.102","key":"192.168.1.102:8848","lastRefTime":1722509930269,"lastRefTimeStr":"2024-08-01 18:58:50","servePort":8848,"site":"unknown","weight":4}
+
+2024-08-01 19:30:55,204 WARN server beat out of date, current: {"adWeight":0,"alive":true,"ip":"192.168.1.102","key":"192.168.1.102:8848","lastRefTime":1722511855204,"lastRefTimeStr":"2024-08-01 19:30:55","servePort":8848,"site":"unknown","weight":4}, last: {"adWeight":0,"alive":false,"ip":"192.168.1.102","key":"192.168.1.102:8848","lastRefTime":1722510885699,"lastRefTimeStr":"2024-08-01 19:14:45","servePort":8848,"site":"unknown","weight":4}
+
+2024-08-01 19:32:58,280 WARN server beat out of date, current: {"adWeight":0,"alive":true,"ip":"192.168.1.102","key":"192.168.1.102:8848","lastRefTime":1722511978279,"lastRefTimeStr":"2024-08-01 19:32:58","servePort":8848,"site":"unknown","weight":4}, last: {"adWeight":0,"alive":false,"ip":"192.168.1.102","key":"192.168.1.102:8848","lastRefTime":1722511870213,"lastRefTimeStr":"2024-08-01 19:31:10","servePort":8848,"site":"unknown","weight":4}
+
+2024-08-01 19:50:54,253 WARN server beat out of date, current: {"adWeight":0,"alive":true,"ip":"192.168.1.102","key":"192.168.1.102:8848","lastRefTime":1722513054251,"lastRefTimeStr":"2024-08-01 19:50:54","servePort":8848,"site":"unknown","weight":4}, last: {"adWeight":0,"alive":false,"ip":"192.168.1.102","key":"192.168.1.102:8848","lastRefTime":1722511993282,"lastRefTimeStr":"2024-08-01 19:33:13","servePort":8848,"site":"unknown","weight":4}
+
+2024-08-01 20:07:53,405 WARN server beat out of date, current: {"adWeight":0,"alive":true,"ip":"192.168.1.102","key":"192.168.1.102:8848","lastRefTime":1722514073404,"lastRefTimeStr":"2024-08-01 20:07:53","servePort":8848,"site":"unknown","weight":4}, last: {"adWeight":0,"alive":false,"ip":"192.168.1.102","key":"192.168.1.102:8848","lastRefTime":1722513054251,"lastRefTimeStr":"2024-08-01 19:50:54","servePort":8848,"site":"unknown","weight":4}
+
+2024-08-01 20:10:17,115 INFO [HEALTH-CHECK] health check is true
+
+2024-08-01 20:15:17,109 INFO [HEALTH-CHECK] health check is true
+
+2024-08-01 20:20:17,103 INFO [HEALTH-CHECK] health check is true
+
+2024-08-01 20:25:17,042 INFO [HEALTH-CHECK] health check is true
+
+2024-08-01 20:30:17,039 INFO [HEALTH-CHECK] health check is true
+
+2024-08-01 20:35:17,036 INFO [HEALTH-CHECK] health check is true
+
+2024-08-01 20:40:17,044 INFO [HEALTH-CHECK] health check is true
+
+2024-08-01 20:45:17,041 INFO [HEALTH-CHECK] health check is true
+
+2024-08-01 20:50:17,036 INFO [HEALTH-CHECK] health check is true
+

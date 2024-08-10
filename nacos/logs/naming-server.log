@@ -1,0 +1,36 @@
+2024-08-10 10:18:09,628 INFO listen for service meta change
+
+2024-08-10 10:18:10,851 INFO [SERVER-INIT] got port: 8848
+
+2024-08-10 10:18:10,852 INFO [SERVER-INIT] got path: /nacos
+
+2024-08-10 10:18:14,546 INFO [NACOS-DISTRO] healthy server list changed, disable health check for 60000 ms from now on
+
+2024-08-10 10:18:40,511 INFO [HEALTH-CHECK] health check is false
+
+2024-08-10 10:19:14,566 INFO [NACOS-DISTRO] distro threshold restored and stable now, enable health check. current ratio: 1.0
+
+2024-08-10 10:20:30,069 INFO creating empty service public:DEFAULT_GROUP@@nacos-provider
+
+2024-08-10 10:20:30,088 WARN cluster: DEFAULT not found, ip: {"app":"DEFAULT","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceId":"192.168.1.103#8762#DEFAULT#DEFAULT_GROUP@@nacos-provider","ip":"192.168.1.103","lastBeat":1723256430055,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8762,"serviceName":"DEFAULT_GROUP@@nacos-provider","tenant":"","weight":1}, will create new cluster with default configuration.
+
+2024-08-10 10:20:30,091 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@nacos-provider, value: {"cachedChecksum":"","instanceList":[{"app":"DEFAULT","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceId":"192.168.1.103#8762#DEFAULT#DEFAULT_GROUP@@nacos-provider","ip":"192.168.1.103","lastBeat":1723256430055,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8762,"serviceName":"DEFAULT_GROUP@@nacos-provider","tenant":"","weight":1}]}
+
+2024-08-10 10:22:59,449 INFO creating empty service public:DEFAULT_GROUP@@nacos-consumer
+
+2024-08-10 10:22:59,450 WARN cluster: DEFAULT not found, ip: {"app":"DEFAULT","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceId":"192.168.1.103#8763#DEFAULT#DEFAULT_GROUP@@nacos-consumer","ip":"192.168.1.103","lastBeat":1723256579448,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8763,"serviceName":"DEFAULT_GROUP@@nacos-consumer","tenant":"","weight":1}, will create new cluster with default configuration.
+
+2024-08-10 10:22:59,450 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@nacos-consumer, value: {"cachedChecksum":"","instanceList":[{"app":"DEFAULT","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceId":"192.168.1.103#8763#DEFAULT#DEFAULT_GROUP@@nacos-consumer","ip":"192.168.1.103","lastBeat":1723256579448,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8763,"serviceName":"DEFAULT_GROUP@@nacos-consumer","tenant":"","weight":1}]}
+
+2024-08-10 10:23:40,515 INFO [HEALTH-CHECK] health check is true
+
+2024-08-10 10:23:43,999 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@nacos-consumer, value: {"cachedChecksum":"","instanceList":[]}
+
+2024-08-10 10:24:16,136 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@nacos-provider, value: {"cachedChecksum":"","instanceList":[]}
+
+2024-08-10 10:24:36,253 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@nacos-provider, value: {"cachedChecksum":"","instanceList":[{"app":"DEFAULT","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceId":"192.168.1.103#8762#DEFAULT#DEFAULT_GROUP@@nacos-provider","ip":"192.168.1.103","lastBeat":1723256676252,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8762,"serviceName":"DEFAULT_GROUP@@nacos-provider","tenant":"","weight":1}]}
+
+2024-08-10 10:24:50,342 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@nacos-provider, value: {"cachedChecksum":"","instanceList":[]}
+
+2024-08-10 10:28:40,518 INFO [HEALTH-CHECK] health check is true
+

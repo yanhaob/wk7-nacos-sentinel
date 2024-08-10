@@ -1,0 +1,24 @@
+2024-08-10 10:20:30,093 INFO DEFAULT_GROUP@@nacos-provider {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.103:8762:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2024-08-10 10:20:30,099 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@nacos-provider, ips: 192.168.1.103:8762_true,
+
+2024-08-10 10:22:59,450 INFO DEFAULT_GROUP@@nacos-consumer {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.103:8763:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2024-08-10 10:22:59,451 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@nacos-consumer, ips: 192.168.1.103:8763_true,
+
+2024-08-10 10:23:44,000 INFO DEFAULT_GROUP@@nacos-consumer {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.103:8763:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2024-08-10 10:23:44,000 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@nacos-consumer, ips: 
+
+2024-08-10 10:24:16,136 INFO DEFAULT_GROUP@@nacos-provider {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.103:8762:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2024-08-10 10:24:16,136 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@nacos-provider, ips: 
+
+2024-08-10 10:24:36,253 INFO DEFAULT_GROUP@@nacos-provider {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.103:8762:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2024-08-10 10:24:36,253 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@nacos-provider, ips: 192.168.1.103:8762_true,
+
+2024-08-10 10:24:50,342 INFO DEFAULT_GROUP@@nacos-provider {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.103:8762:unknown:DEFAULT_1.0_true_false_DEFAULT]
+
+2024-08-10 10:24:50,343 INFO [IP-UPDATED] namespace: public, service: DEFAULT_GROUP@@nacos-provider, ips: 
+

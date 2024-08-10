@@ -1,0 +1,120 @@
+2024-08-10 10:18:09,627 INFO [NACOS-PUSH] clientMap size: 0
+
+2024-08-10 10:18:29,632 INFO [NACOS-PUSH] clientMap size: 0
+
+2024-08-10 10:18:49,633 INFO [NACOS-PUSH] clientMap size: 0
+
+2024-08-10 10:19:09,639 INFO [NACOS-PUSH] clientMap size: 0
+
+2024-08-10 10:19:29,646 INFO [NACOS-PUSH] clientMap size: 0
+
+2024-08-10 10:19:49,653 INFO [NACOS-PUSH] clientMap size: 0
+
+2024-08-10 10:20:09,659 INFO [NACOS-PUSH] clientMap size: 0
+
+2024-08-10 10:20:29,660 INFO [NACOS-PUSH] clientMap size: 0
+
+2024-08-10 10:20:31,101 INFO DEFAULT_GROUP@@nacos-provider is changed, add it to push queue.
+
+2024-08-10 10:20:49,662 INFO [NACOS-PUSH] clientMap size: 0
+
+2024-08-10 10:21:09,668 INFO [NACOS-PUSH] clientMap size: 2
+
+2024-08-10 10:21:29,675 INFO [NACOS-PUSH] clientMap size: 2
+
+2024-08-10 10:21:49,681 INFO [NACOS-PUSH] clientMap size: 2
+
+2024-08-10 10:22:09,687 INFO [NACOS-PUSH] clientMap size: 2
+
+2024-08-10 10:22:29,690 INFO [NACOS-PUSH] clientMap size: 2
+
+2024-08-10 10:22:49,695 INFO [NACOS-PUSH] clientMap size: 2
+
+2024-08-10 10:23:00,456 INFO DEFAULT_GROUP@@nacos-consumer is changed, add it to push queue.
+
+2024-08-10 10:23:00,459 INFO serviceName: DEFAULT_GROUP@@nacos-consumer changed, schedule push for: 127.0.0.1:60026, agent: Nacos-Java-Client:v1.0.0, key: 127.0.0.1,60026,60958514088833
+
+2024-08-10 10:23:00,459 INFO send udp packet: 127.0.0.1,60026,60958514088833
+
+2024-08-10 10:23:00,484 INFO received ack: {"type": "push-ack", "lastRefTime":"60958514088833", "data":""} from: 127.0.0.1:, cost: 60026 ms, unacked: 25, total push: 0
+
+2024-08-10 10:23:09,702 INFO [NACOS-PUSH] clientMap size: 4
+
+2024-08-10 10:23:29,705 INFO [NACOS-PUSH] clientMap size: 6
+
+2024-08-10 10:23:45,002 INFO DEFAULT_GROUP@@nacos-consumer is changed, add it to push queue.
+
+2024-08-10 10:23:45,004 INFO serviceName: DEFAULT_GROUP@@nacos-consumer changed, schedule push for: 127.0.0.1:61108, agent: Nacos-Java-Client:v1.0.0, key: 127.0.0.1,61108,61003061127750
+
+2024-08-10 10:23:45,005 INFO send udp packet: 127.0.0.1,61108,61003061127750
+
+2024-08-10 10:23:45,006 INFO serviceName: DEFAULT_GROUP@@nacos-consumer changed, schedule push for: 127.0.0.1:60026, agent: Nacos-Java-Client:v1.0.0, key: 127.0.0.1,60026,61003061127750
+
+2024-08-10 10:23:45,006 INFO send udp packet: 127.0.0.1,60026,61003061127750
+
+2024-08-10 10:23:45,006 INFO serviceName: DEFAULT_GROUP@@nacos-consumer changed, schedule push for: 127.0.0.1:63709, agent: Nacos-Java-Client:v1.0.0, key: 127.0.0.1,63709,61003061127750
+
+2024-08-10 10:23:45,006 INFO send udp packet: 127.0.0.1,63709,61003061127750
+
+2024-08-10 10:23:45,017 INFO received ack: {"type": "push-ack", "lastRefTime":"61003061127750", "data":""} from: 127.0.0.1:, cost: 60026 ms, unacked: 11, total push: 2
+
+2024-08-10 10:23:45,017 INFO received ack: {"type": "push-ack", "lastRefTime":"61003061127750", "data":""} from: 127.0.0.1:, cost: 63709 ms, unacked: 11, total push: 1
+
+2024-08-10 10:23:45,027 INFO received ack: {"type": "push-ack", "lastRefTime":"61003061127750", "data":""} from: 127.0.0.1:, cost: 61108 ms, unacked: 22, total push: 0
+
+2024-08-10 10:23:49,711 INFO [NACOS-PUSH] clientMap size: 6
+
+2024-08-10 10:24:09,715 INFO [NACOS-PUSH] clientMap size: 4
+
+2024-08-10 10:24:17,139 INFO DEFAULT_GROUP@@nacos-provider is changed, add it to push queue.
+
+2024-08-10 10:24:17,140 INFO serviceName: DEFAULT_GROUP@@nacos-provider changed, schedule push for: 127.0.0.1:60026, agent: Nacos-Java-Client:v1.0.0, key: 127.0.0.1,60026,61035197192583
+
+2024-08-10 10:24:17,140 INFO send udp packet: 127.0.0.1,60026,61035197192583
+
+2024-08-10 10:24:17,148 INFO received ack: {"type": "push-ack", "lastRefTime":"61035197192583", "data":""} from: 127.0.0.1:, cost: 60026 ms, unacked: 8, total push: 0
+
+2024-08-10 10:24:29,719 INFO [NACOS-PUSH] clientMap size: 0
+
+2024-08-10 10:24:37,258 INFO DEFAULT_GROUP@@nacos-provider is changed, add it to push queue.
+
+2024-08-10 10:24:37,259 INFO serviceName: DEFAULT_GROUP@@nacos-provider changed, schedule push for: 127.0.0.1:64459, agent: Nacos-Java-Client:v1.0.0, key: 127.0.0.1,64459,61055316569708
+
+2024-08-10 10:24:37,260 INFO send udp packet: 127.0.0.1,64459,61055316569708
+
+2024-08-10 10:24:37,265 INFO received ack: {"type": "push-ack", "lastRefTime":"61055316569708", "data":""} from: 127.0.0.1:, cost: 64459 ms, unacked: 5, total push: 0
+
+2024-08-10 10:24:49,721 INFO [NACOS-PUSH] clientMap size: 2
+
+2024-08-10 10:24:51,347 INFO DEFAULT_GROUP@@nacos-provider is changed, add it to push queue.
+
+2024-08-10 10:24:51,348 INFO serviceName: DEFAULT_GROUP@@nacos-provider changed, schedule push for: 127.0.0.1:64459, agent: Nacos-Java-Client:v1.0.0, key: 127.0.0.1,64459,61069405198291
+
+2024-08-10 10:24:51,348 INFO send udp packet: 127.0.0.1,64459,61069405198291
+
+2024-08-10 10:24:51,356 INFO received ack: {"type": "push-ack", "lastRefTime":"61069405198291", "data":""} from: 127.0.0.1:, cost: 64459 ms, unacked: 8, total push: 0
+
+2024-08-10 10:25:09,724 INFO [NACOS-PUSH] clientMap size: 0
+
+2024-08-10 10:25:29,727 INFO [NACOS-PUSH] clientMap size: 0
+
+2024-08-10 10:25:49,731 INFO [NACOS-PUSH] clientMap size: 0
+
+2024-08-10 10:26:09,736 INFO [NACOS-PUSH] clientMap size: 0
+
+2024-08-10 10:26:29,738 INFO [NACOS-PUSH] clientMap size: 0
+
+2024-08-10 10:26:49,742 INFO [NACOS-PUSH] clientMap size: 0
+
+2024-08-10 10:27:09,744 INFO [NACOS-PUSH] clientMap size: 0
+
+2024-08-10 10:27:29,746 INFO [NACOS-PUSH] clientMap size: 0
+
+2024-08-10 10:27:49,749 INFO [NACOS-PUSH] clientMap size: 0
+
+2024-08-10 10:28:09,751 INFO [NACOS-PUSH] clientMap size: 0
+
+2024-08-10 10:28:29,752 INFO [NACOS-PUSH] clientMap size: 0
+
+2024-08-10 10:28:49,753 INFO [NACOS-PUSH] clientMap size: 0
+

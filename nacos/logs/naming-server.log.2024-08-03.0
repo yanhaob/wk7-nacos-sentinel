@@ -1,0 +1,166 @@
+2024-08-03 10:02:52,992 INFO listen for service meta change
+
+2024-08-03 10:02:54,249 INFO [SERVER-INIT] got port: 8848
+
+2024-08-03 10:02:54,249 INFO [SERVER-INIT] got path: /nacos
+
+2024-08-03 10:02:57,909 INFO [NACOS-DISTRO] healthy server list changed, disable health check for 60000 ms from now on
+
+2024-08-03 10:03:23,894 INFO [HEALTH-CHECK] health check is false
+
+2024-08-03 10:03:57,924 INFO [NACOS-DISTRO] distro threshold restored and stable now, enable health check. current ratio: 1.0
+
+2024-08-03 10:08:23,891 INFO [HEALTH-CHECK] health check is true
+
+2024-08-03 10:13:23,886 INFO [HEALTH-CHECK] health check is true
+
+2024-08-03 10:18:23,960 INFO [HEALTH-CHECK] health check is true
+
+2024-08-03 10:23:23,961 INFO [HEALTH-CHECK] health check is true
+
+2024-08-03 10:28:23,960 INFO [HEALTH-CHECK] health check is true
+
+2024-08-03 10:33:23,960 INFO [HEALTH-CHECK] health check is true
+
+2024-08-03 10:38:23,956 INFO [HEALTH-CHECK] health check is true
+
+2024-08-03 10:43:23,955 INFO [HEALTH-CHECK] health check is true
+
+2024-08-03 10:48:23,989 INFO [HEALTH-CHECK] health check is true
+
+2024-08-03 10:53:23,990 INFO [HEALTH-CHECK] health check is true
+
+2024-08-03 10:58:23,994 INFO [HEALTH-CHECK] health check is true
+
+2024-08-03 11:03:24,008 INFO [HEALTH-CHECK] health check is true
+
+2024-08-03 11:08:24,010 INFO [HEALTH-CHECK] health check is true
+
+2024-08-03 11:11:20,191 INFO listen for service meta change
+
+2024-08-03 11:11:21,438 INFO [SERVER-INIT] got port: 8848
+
+2024-08-03 11:11:21,438 INFO [SERVER-INIT] got path: /nacos
+
+2024-08-03 11:11:25,091 INFO [NACOS-DISTRO] healthy server list changed, disable health check for 60000 ms from now on
+
+2024-08-03 11:11:51,069 INFO [HEALTH-CHECK] health check is false
+
+2024-08-03 11:12:25,104 INFO [NACOS-DISTRO] distro threshold restored and stable now, enable health check. current ratio: 1.0
+
+2024-08-03 11:16:51,070 INFO [HEALTH-CHECK] health check is true
+
+2024-08-03 11:21:51,041 INFO [HEALTH-CHECK] health check is true
+
+2024-08-03 11:30:34,682 WARN server beat out of date, current: {"adWeight":0,"alive":true,"ip":"192.168.1.104","key":"192.168.1.104:8848","lastRefTime":1722655834681,"lastRefTimeStr":"2024-08-03 11:30:34","servePort":8848,"site":"unknown","weight":4}, last: {"adWeight":0,"alive":false,"ip":"192.168.1.104","key":"192.168.1.104:8848","lastRefTime":1722655390256,"lastRefTimeStr":"2024-08-03 11:23:10","servePort":8848,"site":"unknown","weight":4}
+
+2024-08-03 11:37:49,625 WARN server beat out of date, current: {"adWeight":0,"alive":true,"ip":"192.168.1.104","key":"192.168.1.104:8848","lastRefTime":1722656269624,"lastRefTimeStr":"2024-08-03 11:37:49","servePort":8848,"site":"unknown","weight":4}, last: {"adWeight":0,"alive":false,"ip":"192.168.1.104","key":"192.168.1.104:8848","lastRefTime":1722655834681,"lastRefTimeStr":"2024-08-03 11:30:34","servePort":8848,"site":"unknown","weight":4}
+
+2024-08-03 11:52:16,457 WARN server beat out of date, current: {"adWeight":0,"alive":true,"ip":"192.168.1.104","key":"192.168.1.104:8848","lastRefTime":1722657136457,"lastRefTimeStr":"2024-08-03 11:52:16","servePort":8848,"site":"unknown","weight":4}, last: {"adWeight":0,"alive":false,"ip":"192.168.1.104","key":"192.168.1.104:8848","lastRefTime":1722656269624,"lastRefTimeStr":"2024-08-03 11:37:49","servePort":8848,"site":"unknown","weight":4}
+
+2024-08-03 12:06:40,390 WARN server beat out of date, current: {"adWeight":0,"alive":true,"ip":"192.168.1.104","key":"192.168.1.104:8848","lastRefTime":1722658000389,"lastRefTimeStr":"2024-08-03 12:06:40","servePort":8848,"site":"unknown","weight":4}, last: {"adWeight":0,"alive":false,"ip":"192.168.1.104","key":"192.168.1.104:8848","lastRefTime":1722657136457,"lastRefTimeStr":"2024-08-03 11:52:16","servePort":8848,"site":"unknown","weight":4}
+
+2024-08-03 12:21:04,374 WARN server beat out of date, current: {"adWeight":0,"alive":true,"ip":"192.168.1.104","key":"192.168.1.104:8848","lastRefTime":1722658864373,"lastRefTimeStr":"2024-08-03 12:21:04","servePort":8848,"site":"unknown","weight":4}, last: {"adWeight":0,"alive":false,"ip":"192.168.1.104","key":"192.168.1.104:8848","lastRefTime":1722658000389,"lastRefTimeStr":"2024-08-03 12:06:40","servePort":8848,"site":"unknown","weight":4}
+
+2024-08-03 12:35:33,115 WARN server beat out of date, current: {"adWeight":0,"alive":true,"ip":"192.168.1.104","key":"192.168.1.104:8848","lastRefTime":1722659733114,"lastRefTimeStr":"2024-08-03 12:35:33","servePort":8848,"site":"unknown","weight":4}, last: {"adWeight":0,"alive":false,"ip":"192.168.1.104","key":"192.168.1.104:8848","lastRefTime":1722658864373,"lastRefTimeStr":"2024-08-03 12:21:04","servePort":8848,"site":"unknown","weight":4}
+
+2024-08-03 12:49:57,519 WARN server beat out of date, current: {"adWeight":0,"alive":true,"ip":"192.168.1.104","key":"192.168.1.104:8848","lastRefTime":1722660597519,"lastRefTimeStr":"2024-08-03 12:49:57","servePort":8848,"site":"unknown","weight":4}, last: {"adWeight":0,"alive":false,"ip":"192.168.1.104","key":"192.168.1.104:8848","lastRefTime":1722659733114,"lastRefTimeStr":"2024-08-03 12:35:33","servePort":8848,"site":"unknown","weight":4}
+
+2024-08-03 12:53:35,044 WARN server beat out of date, current: {"adWeight":0,"alive":true,"ip":"192.168.1.104","key":"192.168.1.104:8848","lastRefTime":1722660815044,"lastRefTimeStr":"2024-08-03 12:53:35","servePort":8848,"site":"unknown","weight":4}, last: {"adWeight":0,"alive":false,"ip":"192.168.1.104","key":"192.168.1.104:8848","lastRefTime":1722660597519,"lastRefTimeStr":"2024-08-03 12:49:57","servePort":8848,"site":"unknown","weight":4}
+
+2024-08-03 13:01:03,805 WARN server beat out of date, current: {"adWeight":0,"alive":true,"ip":"192.168.1.104","key":"192.168.1.104:8848","lastRefTime":1722661263804,"lastRefTimeStr":"2024-08-03 13:01:03","servePort":8848,"site":"unknown","weight":4}, last: {"adWeight":0,"alive":false,"ip":"192.168.1.104","key":"192.168.1.104:8848","lastRefTime":1722660815044,"lastRefTimeStr":"2024-08-03 12:53:35","servePort":8848,"site":"unknown","weight":4}
+
+2024-08-03 13:02:29,534 INFO [HEALTH-CHECK] health check is true
+
+2024-08-03 13:07:29,529 INFO [HEALTH-CHECK] health check is true
+
+2024-08-03 13:12:29,525 INFO [HEALTH-CHECK] health check is true
+
+2024-08-03 13:17:29,518 INFO [HEALTH-CHECK] health check is true
+
+2024-08-03 13:22:29,518 INFO [HEALTH-CHECK] health check is true
+
+2024-08-03 13:27:29,511 INFO [HEALTH-CHECK] health check is true
+
+2024-08-03 13:32:29,502 INFO [HEALTH-CHECK] health check is true
+
+2024-08-03 13:37:29,500 INFO [HEALTH-CHECK] health check is true
+
+2024-08-03 13:42:29,496 INFO [HEALTH-CHECK] health check is true
+
+2024-08-03 13:47:29,481 INFO [HEALTH-CHECK] health check is true
+
+2024-08-03 13:52:29,478 INFO [HEALTH-CHECK] health check is true
+
+2024-08-03 13:57:29,476 INFO [HEALTH-CHECK] health check is true
+
+2024-08-03 14:02:29,537 INFO [HEALTH-CHECK] health check is true
+
+2024-08-03 14:04:12,129 INFO creating empty service public:DEFAULT_GROUP@@nacos-provider
+
+2024-08-03 14:04:12,151 WARN cluster: DEFAULT not found, ip: {"app":"DEFAULT","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceId":"192.168.1.104#8762#DEFAULT#DEFAULT_GROUP@@nacos-provider","ip":"192.168.1.104","lastBeat":1722665052112,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8762,"serviceName":"DEFAULT_GROUP@@nacos-provider","tenant":"","weight":1}, will create new cluster with default configuration.
+
+2024-08-03 14:04:12,156 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@nacos-provider, value: {"cachedChecksum":"","instanceList":[{"app":"DEFAULT","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceId":"192.168.1.104#8762#DEFAULT#DEFAULT_GROUP@@nacos-provider","ip":"192.168.1.104","lastBeat":1722665052112,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8762,"serviceName":"DEFAULT_GROUP@@nacos-provider","tenant":"","weight":1}]}
+
+2024-08-03 14:07:29,536 INFO [HEALTH-CHECK] health check is true
+
+2024-08-03 14:12:29,536 INFO [HEALTH-CHECK] health check is true
+
+2024-08-03 14:15:48,246 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@nacos-provider, value: {"cachedChecksum":"","instanceList":[]}
+
+2024-08-03 14:16:12,228 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@nacos-provider, value: {"cachedChecksum":"","instanceList":[{"app":"DEFAULT","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceId":"192.168.1.104#8762#DEFAULT#DEFAULT_GROUP@@nacos-provider","ip":"192.168.1.104","lastBeat":1722665772227,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8762,"serviceName":"DEFAULT_GROUP@@nacos-provider","tenant":"","weight":1}]}
+
+2024-08-03 14:16:24,095 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@nacos-provider, value: {"cachedChecksum":"","instanceList":[]}
+
+2024-08-03 14:17:29,552 INFO [HEALTH-CHECK] health check is true
+
+2024-08-03 14:22:29,554 INFO [HEALTH-CHECK] health check is true
+
+2024-08-03 14:27:29,556 INFO [HEALTH-CHECK] health check is true
+
+2024-08-03 14:32:29,536 INFO [HEALTH-CHECK] health check is true
+
+2024-08-03 14:37:29,535 INFO [HEALTH-CHECK] health check is true
+
+2024-08-03 14:41:04,534 INFO creating empty service public:DEFAULT_GROUP@@nacos-consumer
+
+2024-08-03 14:41:04,536 WARN cluster: DEFAULT not found, ip: {"app":"DEFAULT","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceId":"192.168.1.104#8763#DEFAULT#DEFAULT_GROUP@@nacos-consumer","ip":"192.168.1.104","lastBeat":1722667264534,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8763,"serviceName":"DEFAULT_GROUP@@nacos-consumer","tenant":"","weight":1}, will create new cluster with default configuration.
+
+2024-08-03 14:41:04,536 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@nacos-consumer, value: {"cachedChecksum":"","instanceList":[{"app":"DEFAULT","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceId":"192.168.1.104#8763#DEFAULT#DEFAULT_GROUP@@nacos-consumer","ip":"192.168.1.104","lastBeat":1722667264534,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8763,"serviceName":"DEFAULT_GROUP@@nacos-consumer","tenant":"","weight":1}]}
+
+2024-08-03 14:41:39,174 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@nacos-provider, value: {"cachedChecksum":"","instanceList":[{"app":"DEFAULT","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceId":"192.168.1.104#8762#DEFAULT#DEFAULT_GROUP@@nacos-provider","ip":"192.168.1.104","lastBeat":1722667299173,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8762,"serviceName":"DEFAULT_GROUP@@nacos-provider","tenant":"","weight":1}]}
+
+2024-08-03 14:42:29,535 INFO [HEALTH-CHECK] health check is true
+
+2024-08-03 14:46:34,734 INFO [AUTO-DELETE-IP] service: DEFAULT_GROUP@@nacos-consumer, ip: {"app":"DEFAULT","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":false,"instanceId":"192.168.1.104#8763#DEFAULT#DEFAULT_GROUP@@nacos-consumer","ip":"192.168.1.104","lastBeat":1722667563604,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8763,"serviceName":"DEFAULT_GROUP@@nacos-consumer","tenant":"","weight":1}
+
+2024-08-03 14:46:34,899 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@nacos-consumer, value: {"cachedChecksum":"","instanceList":[]}
+
+2024-08-03 14:46:43,538 INFO [AUTO-DELETE-IP] service: DEFAULT_GROUP@@nacos-provider, ip: {"app":"DEFAULT","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":false,"instanceId":"192.168.1.104#8762#DEFAULT#DEFAULT_GROUP@@nacos-provider","ip":"192.168.1.104","lastBeat":1722667569252,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8762,"serviceName":"DEFAULT_GROUP@@nacos-provider","tenant":"","weight":1}
+
+2024-08-03 14:46:43,545 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@nacos-provider, value: {"cachedChecksum":"","instanceList":[]}
+
+2024-08-03 14:47:29,507 INFO [HEALTH-CHECK] health check is true
+
+2024-08-03 14:52:29,503 INFO [HEALTH-CHECK] health check is true
+
+2024-08-03 14:57:29,500 INFO [HEALTH-CHECK] health check is true
+
+2024-08-03 15:02:29,505 INFO [HEALTH-CHECK] health check is true
+
+2024-08-03 15:07:29,503 INFO [HEALTH-CHECK] health check is true
+
+2024-08-03 15:12:29,504 INFO [HEALTH-CHECK] health check is true
+
+2024-08-03 15:12:57,343 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@nacos-provider, value: {"cachedChecksum":"","instanceList":[{"app":"DEFAULT","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceId":"192.168.1.104#8762#DEFAULT#DEFAULT_GROUP@@nacos-provider","ip":"192.168.1.104","lastBeat":1722669177342,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8762,"serviceName":"DEFAULT_GROUP@@nacos-provider","tenant":"","weight":1}]}
+
+2024-08-03 15:13:37,249 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@nacos-provider, value: {"cachedChecksum":"","instanceList":[]}
+
+2024-08-03 15:14:06,669 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@nacos-provider, value: {"cachedChecksum":"","instanceList":[{"app":"DEFAULT","clusterName":"DEFAULT","enabled":true,"ephemeral":true,"healthy":true,"instanceId":"192.168.1.104#8762#DEFAULT#DEFAULT_GROUP@@nacos-provider","ip":"192.168.1.104","lastBeat":1722669246668,"marked":false,"metadata":{"preserved.register.source":"SPRING_CLOUD"},"port":8762,"serviceName":"DEFAULT_GROUP@@nacos-provider","tenant":"","weight":1}]}
+
+2024-08-03 15:17:29,500 INFO [HEALTH-CHECK] health check is true
+
+2024-08-03 15:19:17,868 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.ephemeral.public##DEFAULT_GROUP@@nacos-provider, value: {"cachedChecksum":"","instanceList":[]}
+
+2024-08-03 15:22:29,500 INFO [HEALTH-CHECK] health check is true
+

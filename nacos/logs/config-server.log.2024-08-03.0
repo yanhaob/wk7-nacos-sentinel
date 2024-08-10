@@ -1,0 +1,538 @@
+2024-08-03 10:02:53,205 INFO notifyConnectTimeout:200
+
+2024-08-03 10:02:53,206 INFO notifySocketTimeout:8000
+
+2024-08-03 10:02:53,206 INFO isHealthCheck:true
+
+2024-08-03 10:02:53,206 INFO maxHealthCheckFailCount:12
+
+2024-08-03 10:02:53,206 INFO maxContent:10485760
+
+2024-08-03 10:02:53,500 INFO Schema 'NACOS' already exists.
+
+2024-08-03 10:02:53,525 INFO Table/View 'CONFIG_INFO' already exists in Schema 'NACOS'.
+
+2024-08-03 10:02:53,545 INFO Table/View 'HIS_CONFIG_INFO' already exists in Schema 'NACOS'.
+
+2024-08-03 10:02:53,551 INFO Table/View 'CONFIG_INFO_BETA' already exists in Schema 'NACOS'.
+
+2024-08-03 10:02:53,554 INFO Table/View 'CONFIG_INFO_TAG' already exists in Schema 'NACOS'.
+
+2024-08-03 10:02:53,556 INFO Table/View 'CONFIG_INFO_AGGR' already exists in Schema 'NACOS'.
+
+2024-08-03 10:02:53,559 INFO Table/View 'APP_LIST' already exists in Schema 'NACOS'.
+
+2024-08-03 10:02:53,561 INFO Table/View 'APP_CONFIGDATA_RELATION_SUBS' already exists in Schema 'NACOS'.
+
+2024-08-03 10:02:53,563 INFO Table/View 'APP_CONFIGDATA_RELATION_PUBS' already exists in Schema 'NACOS'.
+
+2024-08-03 10:02:53,565 INFO Table/View 'CONFIG_TAGS_RELATION' already exists in Schema 'NACOS'.
+
+2024-08-03 10:02:53,568 INFO Table/View 'GROUP_CAPACITY' already exists in Schema 'NACOS'.
+
+2024-08-03 10:02:53,570 INFO Table/View 'TENANT_CAPACITY' already exists in Schema 'NACOS'.
+
+2024-08-03 10:02:53,572 INFO Table/View 'TENANT_INFO' already exists in Schema 'NACOS'.
+
+2024-08-03 10:02:53,575 INFO Table/View 'USERS' already exists in Schema 'NACOS'.
+
+2024-08-03 10:02:53,576 INFO Table/View 'ROLES' already exists in Schema 'NACOS'.
+
+2024-08-03 10:02:53,609 INFO The statement was aborted because it would have caused a duplicate key value in a unique or primary key constraint or unique index identified by 'SQL240801161529830' defined on 'USERS'.
+
+2024-08-03 10:02:53,652 WARN DumpService start
+
+2024-08-03 10:02:53,653 INFO start clear all config-info.
+
+2024-08-03 10:02:53,655 WARN clear all config-info failed.
+
+2024-08-03 10:02:53,656 WARN clear all config-info-tenant failed.
+
+2024-08-03 10:02:53,686 INFO start clear all config-info-beta.
+
+2024-08-03 10:02:53,686 WARN clear all config-info-beta failed.
+
+2024-08-03 10:02:53,686 WARN clear all config-info-beta-tenant failed.
+
+2024-08-03 10:02:53,691 INFO start clear all config-info-tag.
+
+2024-08-03 10:02:53,691 WARN clear all config-info-tag failed.
+
+2024-08-03 10:02:53,691 WARN clear all config-info-tag-tenant failed.
+
+2024-08-03 10:02:53,805 INFO ServerListService address-server port:8848
+
+2024-08-03 10:02:53,805 INFO ADDRESS_SERVER_URL:http://jmenv.tbsite.net:8080/nacos/serverlist
+
+2024-08-03 10:02:53,805 WARN [serverlist] updated to [192.168.1.104]
+
+2024-08-03 10:52:31,247 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:13
+
+2024-08-03 10:52:36,213 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:14
+
+2024-08-03 10:52:41,246 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:15
+
+2024-08-03 10:52:46,212 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:16
+
+2024-08-03 10:52:51,291 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:17
+
+2024-08-03 10:52:56,274 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:18
+
+2024-08-03 10:53:01,252 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:19
+
+2024-08-03 10:53:06,215 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:20
+
+2024-08-03 10:53:11,254 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:21
+
+2024-08-03 10:53:16,328 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:22
+
+2024-08-03 10:53:21,251 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:23
+
+2024-08-03 10:53:26,256 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:24
+
+2024-08-03 10:53:31,322 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:25
+
+2024-08-03 10:53:36,372 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:26
+
+2024-08-03 10:53:41,304 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:27
+
+2024-08-03 10:53:46,284 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:28
+
+2024-08-03 10:53:51,316 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:29
+
+2024-08-03 10:53:56,294 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:30
+
+2024-08-03 10:54:01,324 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:31
+
+2024-08-03 10:54:06,339 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:32
+
+2024-08-03 10:54:11,319 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:33
+
+2024-08-03 10:54:16,405 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:34
+
+2024-08-03 10:54:21,326 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:35
+
+2024-08-03 10:54:26,369 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:36
+
+2024-08-03 10:54:31,345 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:37
+
+2024-08-03 10:54:36,369 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:38
+
+2024-08-03 10:54:41,350 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:39
+
+2024-08-03 10:54:46,338 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:40
+
+2024-08-03 10:54:51,389 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:41
+
+2024-08-03 10:54:56,349 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:42
+
+2024-08-03 10:55:01,357 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:43
+
+2024-08-03 10:55:06,368 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:44
+
+2024-08-03 10:55:11,345 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:45
+
+2024-08-03 10:55:16,351 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:46
+
+2024-08-03 10:55:21,417 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:47
+
+2024-08-03 10:55:26,365 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:48
+
+2024-08-03 10:55:31,382 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:49
+
+2024-08-03 10:55:36,405 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:50
+
+2024-08-03 10:55:41,552 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:51
+
+2024-08-03 10:55:46,532 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:52
+
+2024-08-03 10:55:51,540 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:53
+
+2024-08-03 10:55:56,548 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:54
+
+2024-08-03 10:56:01,490 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:55
+
+2024-08-03 10:56:06,503 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:56
+
+2024-08-03 10:56:11,561 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:57
+
+2024-08-03 10:56:16,529 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:58
+
+2024-08-03 10:56:21,559 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:59
+
+2024-08-03 10:56:26,592 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:60
+
+2024-08-03 10:56:31,748 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:61
+
+2024-08-03 10:56:36,545 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:62
+
+2024-08-03 10:56:41,609 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:63
+
+2024-08-03 10:56:46,629 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:64
+
+2024-08-03 10:56:51,685 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:65
+
+2024-08-03 10:56:56,538 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:66
+
+2024-08-03 10:57:01,613 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:67
+
+2024-08-03 10:57:07,306 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:68
+
+2024-08-03 10:57:11,596 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:69
+
+2024-08-03 10:57:16,565 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:70
+
+2024-08-03 10:57:21,586 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:71
+
+2024-08-03 10:57:26,553 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:72
+
+2024-08-03 10:57:31,686 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:73
+
+2024-08-03 10:57:36,567 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:74
+
+2024-08-03 10:57:41,606 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:75
+
+2024-08-03 10:57:46,663 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:76
+
+2024-08-03 10:57:51,793 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:77
+
+2024-08-03 10:57:56,728 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:78
+
+2024-08-03 10:58:01,712 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:79
+
+2024-08-03 10:58:06,666 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:80
+
+2024-08-03 10:58:11,591 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:81
+
+2024-08-03 10:58:16,665 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:82
+
+2024-08-03 10:58:21,577 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:83
+
+2024-08-03 10:58:26,610 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:84
+
+2024-08-03 10:58:31,612 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:85
+
+2024-08-03 10:58:36,850 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:86
+
+2024-08-03 10:58:41,707 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:87
+
+2024-08-03 10:58:46,677 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:88
+
+2024-08-03 10:58:51,609 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:89
+
+2024-08-03 10:58:56,648 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:90
+
+2024-08-03 10:59:01,612 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:91
+
+2024-08-03 10:59:06,733 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:92
+
+2024-08-03 10:59:11,625 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:93
+
+2024-08-03 10:59:16,618 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:94
+
+2024-08-03 10:59:21,654 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:95
+
+2024-08-03 10:59:26,648 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:96
+
+2024-08-03 10:59:31,643 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:97
+
+2024-08-03 10:59:36,808 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:98
+
+2024-08-03 10:59:41,754 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:99
+
+2024-08-03 10:59:46,689 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:100
+
+2024-08-03 10:59:51,710 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:101
+
+2024-08-03 10:59:56,694 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:102
+
+2024-08-03 11:00:01,645 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:103
+
+2024-08-03 11:00:06,653 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:104
+
+2024-08-03 11:00:11,664 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:105
+
+2024-08-03 11:00:16,836 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:106
+
+2024-08-03 11:00:21,713 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:107
+
+2024-08-03 11:00:26,722 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:108
+
+2024-08-03 11:00:31,664 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:109
+
+2024-08-03 11:00:36,724 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:110
+
+2024-08-03 11:00:41,746 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:111
+
+2024-08-03 11:00:46,733 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:112
+
+2024-08-03 11:00:51,723 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:113
+
+2024-08-03 11:00:56,708 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:114
+
+2024-08-03 11:01:01,763 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:115
+
+2024-08-03 11:01:06,769 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:116
+
+2024-08-03 11:01:11,690 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:117
+
+2024-08-03 11:01:16,767 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:118
+
+2024-08-03 11:01:21,728 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:119
+
+2024-08-03 11:01:26,822 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:120
+
+2024-08-03 11:01:31,769 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:121
+
+2024-08-03 11:01:36,776 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:122
+
+2024-08-03 11:01:41,844 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:123
+
+2024-08-03 11:01:46,852 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:124
+
+2024-08-03 11:01:51,776 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:125
+
+2024-08-03 11:01:56,735 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:126
+
+2024-08-03 11:02:01,784 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:127
+
+2024-08-03 11:02:06,726 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:128
+
+2024-08-03 11:02:11,742 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:129
+
+2024-08-03 11:02:16,793 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:130
+
+2024-08-03 11:02:21,771 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:131
+
+2024-08-03 11:02:26,848 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:132
+
+2024-08-03 11:02:31,849 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:133
+
+2024-08-03 11:02:36,775 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:134
+
+2024-08-03 11:02:41,836 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:135
+
+2024-08-03 11:02:46,878 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:136
+
+2024-08-03 11:02:51,830 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:137
+
+2024-08-03 11:02:56,798 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:138
+
+2024-08-03 11:03:01,794 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:139
+
+2024-08-03 11:03:06,783 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:140
+
+2024-08-03 11:03:11,818 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:141
+
+2024-08-03 11:03:16,854 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:142
+
+2024-08-03 11:03:21,781 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:143
+
+2024-08-03 11:03:26,819 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:144
+
+2024-08-03 11:03:31,821 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:145
+
+2024-08-03 11:03:36,862 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:146
+
+2024-08-03 11:03:41,831 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:147
+
+2024-08-03 11:03:46,861 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:148
+
+2024-08-03 11:03:51,837 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:149
+
+2024-08-03 11:03:56,920 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:150
+
+2024-08-03 11:04:01,880 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:151
+
+2024-08-03 11:04:06,901 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:152
+
+2024-08-03 11:04:11,836 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:153
+
+2024-08-03 11:04:16,891 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:154
+
+2024-08-03 11:04:21,879 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:155
+
+2024-08-03 11:04:26,874 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:156
+
+2024-08-03 11:04:31,860 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:157
+
+2024-08-03 11:04:36,864 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:158
+
+2024-08-03 11:04:41,901 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:159
+
+2024-08-03 11:04:46,990 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:160
+
+2024-08-03 11:04:51,902 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:161
+
+2024-08-03 11:04:57,009 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:162
+
+2024-08-03 11:05:01,952 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:163
+
+2024-08-03 11:05:06,918 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:164
+
+2024-08-03 11:05:11,888 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:165
+
+2024-08-03 11:05:16,901 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:166
+
+2024-08-03 11:05:22,001 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:167
+
+2024-08-03 11:05:26,903 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:168
+
+2024-08-03 11:05:31,899 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:169
+
+2024-08-03 11:05:36,897 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:170
+
+2024-08-03 11:05:41,989 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:171
+
+2024-08-03 11:05:47,004 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:172
+
+2024-08-03 11:05:51,911 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:173
+
+2024-08-03 11:05:57,026 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:174
+
+2024-08-03 11:06:01,970 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:175
+
+2024-08-03 11:06:06,985 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:176
+
+2024-08-03 11:06:12,111 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:177
+
+2024-08-03 11:06:16,963 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:178
+
+2024-08-03 11:06:21,940 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:179
+
+2024-08-03 11:06:27,012 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:180
+
+2024-08-03 11:06:31,963 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:181
+
+2024-08-03 11:06:36,984 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:182
+
+2024-08-03 11:06:42,005 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:183
+
+2024-08-03 11:06:46,995 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:184
+
+2024-08-03 11:06:52,043 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:185
+
+2024-08-03 11:06:56,959 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:186
+
+2024-08-03 11:07:01,984 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:187
+
+2024-08-03 11:07:06,990 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:188
+
+2024-08-03 11:07:11,999 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:189
+
+2024-08-03 11:07:17,021 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:190
+
+2024-08-03 11:07:22,068 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:191
+
+2024-08-03 11:07:27,045 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:192
+
+2024-08-03 11:07:31,981 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:193
+
+2024-08-03 11:07:36,977 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:194
+
+2024-08-03 11:07:42,026 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:195
+
+2024-08-03 11:07:47,025 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:196
+
+2024-08-03 11:07:51,978 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:197
+
+2024-08-03 11:07:57,024 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:198
+
+2024-08-03 11:08:02,167 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:199
+
+2024-08-03 11:08:06,985 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:200
+
+2024-08-03 11:08:11,991 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:201
+
+2024-08-03 11:08:17,041 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:202
+
+2024-08-03 11:08:22,026 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:203
+
+2024-08-03 11:08:27,067 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:204
+
+2024-08-03 11:08:32,066 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:205
+
+2024-08-03 11:08:37,072 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:206
+
+2024-08-03 11:08:42,070 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:207
+
+2024-08-03 11:08:47,024 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:208
+
+2024-08-03 11:08:52,127 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:209
+
+2024-08-03 11:08:57,029 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:210
+
+2024-08-03 11:09:02,086 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:211
+
+2024-08-03 11:09:07,103 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:212
+
+2024-08-03 11:09:12,187 ERROR unhealthIp:192.168.1.104:8848, unhealthCount:213
+
+2024-08-03 11:11:20,405 INFO notifyConnectTimeout:200
+
+2024-08-03 11:11:20,405 INFO notifySocketTimeout:8000
+
+2024-08-03 11:11:20,405 INFO isHealthCheck:true
+
+2024-08-03 11:11:20,405 INFO maxHealthCheckFailCount:12
+
+2024-08-03 11:11:20,405 INFO maxContent:10485760
+
+2024-08-03 11:11:20,650 INFO Schema 'NACOS' already exists.
+
+2024-08-03 11:11:20,673 INFO Table/View 'CONFIG_INFO' already exists in Schema 'NACOS'.
+
+2024-08-03 11:11:20,695 INFO Table/View 'HIS_CONFIG_INFO' already exists in Schema 'NACOS'.
+
+2024-08-03 11:11:20,705 INFO Table/View 'CONFIG_INFO_BETA' already exists in Schema 'NACOS'.
+
+2024-08-03 11:11:20,708 INFO Table/View 'CONFIG_INFO_TAG' already exists in Schema 'NACOS'.
+
+2024-08-03 11:11:20,710 INFO Table/View 'CONFIG_INFO_AGGR' already exists in Schema 'NACOS'.
+
+2024-08-03 11:11:20,713 INFO Table/View 'APP_LIST' already exists in Schema 'NACOS'.
+
+2024-08-03 11:11:20,715 INFO Table/View 'APP_CONFIGDATA_RELATION_SUBS' already exists in Schema 'NACOS'.
+
+2024-08-03 11:11:20,717 INFO Table/View 'APP_CONFIGDATA_RELATION_PUBS' already exists in Schema 'NACOS'.
+
+2024-08-03 11:11:20,719 INFO Table/View 'CONFIG_TAGS_RELATION' already exists in Schema 'NACOS'.
+
+2024-08-03 11:11:20,723 INFO Table/View 'GROUP_CAPACITY' already exists in Schema 'NACOS'.
+
+2024-08-03 11:11:20,725 INFO Table/View 'TENANT_CAPACITY' already exists in Schema 'NACOS'.
+
+2024-08-03 11:11:20,727 INFO Table/View 'TENANT_INFO' already exists in Schema 'NACOS'.
+
+2024-08-03 11:11:20,731 INFO Table/View 'USERS' already exists in Schema 'NACOS'.
+
+2024-08-03 11:11:20,732 INFO Table/View 'ROLES' already exists in Schema 'NACOS'.
+
+2024-08-03 11:11:20,768 INFO The statement was aborted because it would have caused a duplicate key value in a unique or primary key constraint or unique index identified by 'SQL240801161529830' defined on 'USERS'.
+
+2024-08-03 11:11:20,809 WARN DumpService start
+
+2024-08-03 11:11:20,810 INFO start clear all config-info.
+
+2024-08-03 11:11:20,813 WARN clear all config-info failed.
+
+2024-08-03 11:11:20,813 WARN clear all config-info-tenant failed.
+
+2024-08-03 11:11:20,852 INFO start clear all config-info-beta.
+
+2024-08-03 11:11:20,852 WARN clear all config-info-beta failed.
+
+2024-08-03 11:11:20,852 WARN clear all config-info-beta-tenant failed.
+
+2024-08-03 11:11:20,859 INFO start clear all config-info-tag.
+
+2024-08-03 11:11:20,860 WARN clear all config-info-tag failed.
+
+2024-08-03 11:11:20,860 WARN clear all config-info-tag-tenant failed.
+
+2024-08-03 11:11:20,996 INFO ServerListService address-server port:8848
+
+2024-08-03 11:11:20,997 INFO ADDRESS_SERVER_URL:http://jmenv.tbsite.net:8080/nacos/serverlist
+
+2024-08-03 11:11:20,997 WARN [serverlist] updated to [192.168.1.104]
+

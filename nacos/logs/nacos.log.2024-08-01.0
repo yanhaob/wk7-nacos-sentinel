@@ -1,0 +1,142 @@
+2024-08-01 16:15:28,015 INFO Starting Nacos v1.0.0 on yanhaodeMacBook-Air.local with PID 25659 (/Users/yanhao/Downloads/nacos/target/nacos-server.jar started by yanhao in /Users/yanhao/Downloads/nacos/bin)
+
+2024-08-01 16:15:28,016 INFO The following profiles are active: standalone
+
+2024-08-01 16:15:28,802 INFO Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration$$EnhancerBySpringCGLIB$$31d29b51] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2024-08-01 16:15:28,838 INFO Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2024-08-01 16:15:28,839 INFO Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@6d23017e' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2024-08-01 16:15:28,840 INFO Bean 'org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration' of type [org.springframework.security.config.annotation.method.configuration.GlobalMethodSecurityConfiguration$$EnhancerBySpringCGLIB$$56a73e03] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2024-08-01 16:15:28,841 INFO Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+2024-08-01 16:15:29,033 INFO Tomcat initialized with port(s): 8848 (http)
+
+2024-08-01 16:15:29,046 INFO Starting service [Tomcat]
+
+2024-08-01 16:15:29,046 INFO Starting Servlet Engine: Apache Tomcat/9.0.13
+
+2024-08-01 16:15:29,053 INFO The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/yanhao/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+
+2024-08-01 16:15:29,092 INFO Initializing Spring embedded WebApplicationContext
+
+2024-08-01 16:15:29,092 INFO Root WebApplicationContext: initialization completed in 1048 ms
+
+2024-08-01 16:15:30,095 INFO Use Mysql as the driver
+
+2024-08-01 16:15:30,240 INFO Initializing ExecutorService 'applicationTaskExecutor'
+
+2024-08-01 16:15:30,299 INFO Adding welcome page: class path resource [static/index.html]
+
+2024-08-01 16:15:30,410 INFO Creating filter chain: Ant [pattern='/'], []
+
+2024-08-01 16:15:30,410 INFO Creating filter chain: Ant [pattern='/**/*.css'], []
+
+2024-08-01 16:15:30,410 INFO Creating filter chain: Ant [pattern='/**/*.js'], []
+
+2024-08-01 16:15:30,410 INFO Creating filter chain: Ant [pattern='/**/*.html'], []
+
+2024-08-01 16:15:30,410 INFO Creating filter chain: Ant [pattern='/**/*.map'], []
+
+2024-08-01 16:15:30,410 INFO Creating filter chain: Ant [pattern='/**/*.svg'], []
+
+2024-08-01 16:15:30,410 INFO Creating filter chain: Ant [pattern='/**/*.png'], []
+
+2024-08-01 16:15:30,410 INFO Creating filter chain: Ant [pattern='/**/*.ico'], []
+
+2024-08-01 16:15:30,410 INFO Creating filter chain: Ant [pattern='/console-fe/public/**'], []
+
+2024-08-01 16:15:30,410 INFO Creating filter chain: Ant [pattern='/v1/auth/login'], []
+
+2024-08-01 16:15:30,410 INFO Creating filter chain: Ant [pattern='/v1/console/health/**'], []
+
+2024-08-01 16:15:30,410 INFO Creating filter chain: Ant [pattern='/v1/cs/**'], []
+
+2024-08-01 16:15:30,410 INFO Creating filter chain: Ant [pattern='/v1/ns/**'], []
+
+2024-08-01 16:15:30,410 INFO Creating filter chain: Ant [pattern='/v1/cmdb/**'], []
+
+2024-08-01 16:15:30,410 INFO Creating filter chain: Ant [pattern='/actuator/**'], []
+
+2024-08-01 16:15:30,410 INFO Creating filter chain: Ant [pattern='/v1/console/server/**'], []
+
+2024-08-01 16:15:30,420 INFO Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@fd53053, org.springframework.security.web.context.SecurityContextPersistenceFilter@429f7919, org.springframework.security.web.header.HeaderWriterFilter@6fa13e6, org.springframework.security.web.authentication.logout.LogoutFilter@4601203a, com.alibaba.nacos.console.filter.JwtAuthenticationTokenFilter@4527f70a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@cda6019, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1cf0cacc, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@707b1a44, org.springframework.security.web.session.SessionManagementFilter@ed91d8d, org.springframework.security.web.access.ExceptionTranslationFilter@6535117e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3e67f5f2]
+
+2024-08-01 16:15:30,435 INFO Exposing 2 endpoint(s) beneath base path '/actuator'
+
+2024-08-01 16:15:30,447 INFO Initializing ExecutorService 'taskScheduler'
+
+2024-08-01 16:15:30,486 INFO Tomcat started on port(s): 8848 (http) with context path '/nacos'
+
+2024-08-01 16:15:30,488 INFO Started Nacos in 2.889 seconds (JVM running for 3.221)
+
+2024-08-01 16:15:30,488 INFO Nacos Log files: /Users/yanhao/Downloads/nacos/logs/
+
+2024-08-01 16:15:30,488 INFO Nacos Conf files: /Users/yanhao/Downloads/nacos/conf/
+
+2024-08-01 16:15:30,488 INFO Nacos Data files: /Users/yanhao/Downloads/nacos/data/
+
+2024-08-01 16:15:30,488 INFO Nacos started successfully in stand alone mode.
+
+2024-08-01 16:15:35,151 INFO Initializing Spring DispatcherServlet 'dispatcherServlet'
+
+2024-08-01 16:15:35,151 INFO Initializing Servlet 'dispatcherServlet'
+
+2024-08-01 16:15:35,156 INFO Completed initialization in 5 ms
+
+2024-08-01 16:15:41,379 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
+
+2024-08-01 16:25:29,909 INFO [capacityManagement] start correct usage
+
+2024-08-01 16:25:29,949 INFO [capacityManagement] end correct usage, cost: 0s
+
+2024-08-01 16:25:29,955 WARN clearConfigHistory start
+
+2024-08-01 16:35:29,939 INFO [capacityManagement] start correct usage
+
+2024-08-01 16:35:29,948 INFO [capacityManagement] end correct usage, cost: 0s
+
+2024-08-01 16:35:29,968 WARN clearConfigHistory start
+
+2024-08-01 16:45:29,964 INFO [capacityManagement] start correct usage
+
+2024-08-01 16:45:29,973 INFO [capacityManagement] end correct usage, cost: 0s
+
+2024-08-01 16:45:29,980 WARN clearConfigHistory start
+
+2024-08-01 17:30:25,671 INFO [capacityManagement] start correct usage
+
+2024-08-01 17:30:25,678 INFO [capacityManagement] end correct usage, cost: 0s
+
+2024-08-01 17:30:25,682 WARN clearConfigHistory start
+
+2024-08-01 20:14:46,894 INFO [capacityManagement] start correct usage
+
+2024-08-01 20:14:46,895 WARN clearConfigHistory start
+
+2024-08-01 20:14:46,905 INFO [capacityManagement] end correct usage, cost: 0s
+
+2024-08-01 20:24:46,834 WARN clearConfigHistory start
+
+2024-08-01 20:24:46,836 INFO [capacityManagement] start correct usage
+
+2024-08-01 20:24:46,845 INFO [capacityManagement] end correct usage, cost: 0s
+
+2024-08-01 20:34:46,823 WARN clearConfigHistory start
+
+2024-08-01 20:34:46,831 INFO [capacityManagement] start correct usage
+
+2024-08-01 20:34:46,834 INFO [capacityManagement] end correct usage, cost: 0s
+
+2024-08-01 20:44:46,832 WARN clearConfigHistory start
+
+2024-08-01 20:44:46,834 INFO [capacityManagement] start correct usage
+
+2024-08-01 20:44:46,839 INFO [capacityManagement] end correct usage, cost: 0s
+
+2024-08-01 20:52:04,745 INFO Shutting down ExecutorService 'taskScheduler'
+
+2024-08-01 20:52:04,751 INFO Shutting down ExecutorService 'applicationTaskExecutor'
+
