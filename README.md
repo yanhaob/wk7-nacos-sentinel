@@ -49,16 +49,17 @@ username: nacos, password: nacos, as followed by the Fig.2 below.
 
 ## Sentinel
 
-首先，下载sentinel dashboard, 下载完成后，使用指令启动：
+**Step1**, download sentinel dashboard and start by:
 
 ```sh
 java -jar sentinel-dashboard-1.6.1.jar
 ```
-默认启动端口为8080，可以-Dserver.port=8081的形式改变默认端口。启动成功后，在浏览器上访问localhost:8080，就可以显示Sentinel的登陆界面，登陆名为sentinel，密码为sentinel。
 
-接着，登陆sentinel dashboard成功后，并多次访问nacos-provider的localhost:8080/hi接口，在nacos访问信息Fig.6, sentinel dashboard显示了nacos-provider的接口资源信息Fig.7, 在/hi资源处设置接口的限流功能，在“+流控”按钮点击开设置界面如下,设置阈值类型为 qps，单机阈值为2，Fig.8, 
+The default startup port is 8080 (change by 'java -jar sentinel-dashboard-1.6.1.jar -Dserver.port=8081'). Then visit http://localhost:8080/ to display the Sentinel page (username: sentinel, password: sentinel).
 
-接着，测试多次快速访问nacos-provider的接口资源http://localhost:8762/hi，可以发现偶尔出现以下的信息：“Blocked by Sentinel (flow limiting)”，正常的返回逻辑为“hi forezp”，由以上可知，接口资源/hi的限流规则起到了作用，Fig.9。最后查看限流后的nacos-provider的接口资源信息Fig.10.
+**Step2**, multiple times visit http://localhost:8762/hi of nacos-provider then check sentinel dashboard (Fig.6). Check the interface resource info (Fig.7). Click "Add Flow Control" to configure (Fig.8) the functionality of flow control for the /hi resource.
+
+**Step3**, test. Multiple times visit http://localhost:8762/hi of nacos-provider, and you can find the following info "Blocked by Sentinel (flow limiting)" with the normal return logic being "hi forezp", which indicates the functionality of flow control works (Fig.9). Then check sentinel dashboard (Fig.10).
 
 <div style="text-align: center;">
     <img src="./img/sentinel-provider.png" alt="sentinel-provider" width="100%">
