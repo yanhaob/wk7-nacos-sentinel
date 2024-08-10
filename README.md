@@ -103,6 +103,6 @@ The default startup port is 8080 (change by 'java -jar sentinel-dashboard-1.6.1.
 </div>
 <div style="text-align: center;">
     <img src="./img/sentinel-consumer-limit-page.png" alt="sentinel-consumer-limit-page" width="100%">
-    <p style="margin: 0;">Fig.10 Sentinel-Consumer(Renewed Dashboard)</p>
+    <p style="margin: 0;">Fig.14 Sentinel-Consumer(Renewed Dashboard)</p>
 </div>
 
